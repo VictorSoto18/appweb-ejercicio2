@@ -15,7 +15,7 @@
 body {
     margin: 0;
     padding: 0;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     right: 0;
@@ -153,7 +153,7 @@ nav .profile-link a {
 
 .blog-news-img-container img{
     width: 85%;
-}
+}famil
 
 .blog-news-info-container {
     grid-column: 2;
@@ -175,4 +175,39 @@ nav .profile-link a {
     border: 1px solid var(--color-white);
     color: var(--color-white);
     background-color: var(--color-primary);
+}
+
+.blog-posts-container .post-container {
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blog-posts-container .post-container img{
+    width: 50%;
+}
+
+.blog-posts-container .post-container p{
+    margin-bottom: 35px;
+    font-family: 'EB+Garamond';
+}
+
+.blog-posts-container .post-container p:nth-child(2){
+    font-weight: bold;
+    color: var(--color-primary);
+    font-size: larger;
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: var(--color-black);
+    border-top: 35px solid var(--color-primary);
+    text-align: center;
+}
+
+footer p{
+    color: var(--color-white);
+    margin-top: 30px;
 }
