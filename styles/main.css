@@ -212,3 +212,13 @@ footer p{
     font-size: large;
     font-weight: bold;
 }
+
+form {
+    padding: 10px;
+    font-family: 'EB+Garamond';
+    background-color: var(--color-light);
+}
+
+label {
+    font-weight: bold;
+}
