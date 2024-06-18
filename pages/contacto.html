@@ -34,13 +34,30 @@
     <main class="main">
         <h2>Formulario de contacto</h2>
         <hr>
-        <form action="/" method="post">
+        <form action="" method="post" autocomplete="on">
             <label for="nombre">Ingresa tu nombre:</label>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre" autocomplete="name" required>
             <br><br>
             <label for="mail">Ingresa tu correo electronico:</label>
-            <input type="mail" id="mail" name="mail">
+            <input type="mail" id="mail" name="mail" required>
             <br><br>
+<!-- Creación deuna lista desplegable -->
+ <label for="intereses">Seleciona lo que te interesa:</label>
+            <select name="intereses" id="intereses">
+                <option value="historia">Historia de la computación</option>
+                <option value="noticias">Últimas noticias</option>
+                <option value="gadgets">Reseñas de los gadgets</option>
+            </select>
+            <br><br>
+<!-- otra forma de hacer una lista  -->
+            <label for="gadgets">Seleciona el gadgets que te interese:</label>
+            <input list="gadgets">
+             <datalist id="gadgets">
+                <option value="smartwacht">Reloj inteligente</option>
+                <option value="weareables">Dispositivos vestibles</option>
+                <option value="gafas">Gafas de realidad aumentada</option>
+             </datalist>
+             <br><br>
             <label for="mensaje">Escribe tu mensaje:</label>
             <textarea name="mensaje" id="mensaje"></textarea>
             <br><br>

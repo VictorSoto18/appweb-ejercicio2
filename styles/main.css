@@ -7,6 +7,7 @@
     --color-light: #b3daff;
     --color-black: #000000;
     --color-white:  #FFFFFF;
+    --color-contact2: #bcbfc2;
     --font-medium: 1.4rem;
     --font-large: 1.6rem;
 }
@@ -216,7 +217,7 @@ footer p{
 form {
     padding: 10px;
     font-family: 'EB+Garamond';
-    background-color: var(--color-light);
+    background-color: var(--color-contact2);
 }
 
 label {
